@@ -20,7 +20,7 @@ class Ui extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Name field
+            
             const TextField(
               decoration: InputDecoration(
                 labelText: 'Name',
@@ -29,7 +29,7 @@ class Ui extends StatelessWidget {
             ),
             const SizedBox(height: 10),
 
-            // Phone number field
+        
             const TextField(
               decoration: InputDecoration(
                 labelText: 'Phone Number',
@@ -39,12 +39,12 @@ class Ui extends StatelessWidget {
             ),
             const SizedBox(height: 15),
 
-            // Add button (enabled and styled)
+           
             SizedBox(
               width: double.infinity,
               height: 45,
               child: ElevatedButton(
-                onPressed: () {}, // button active but no functionality
+                onPressed: () {}, 
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blueGrey,
                 ),
@@ -60,7 +60,7 @@ class Ui extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Contact list (static)
+          
             Expanded(
               child: ListView(
                 children: const [
